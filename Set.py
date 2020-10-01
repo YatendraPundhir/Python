@@ -1,0 +1,10 @@
+s = set()
+print(type(s))
+
+s.add(1)
+s.add(2)
+s1 = s.union()
+print(s,s1)
+print(len(s1))
+s2=s.intersection()
+print(s2)
